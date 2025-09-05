@@ -8,7 +8,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Adatok Bekérése</h1>
+        <form>
+            <h1>Adatok Bekérése</h1>
             <label for="surname">Név:</label>
             <input type="text" id="surname" name="surname" >
 
@@ -25,7 +26,21 @@
             <input type="text" id="house-number" name="house-number">
 
             <button onclick="submitData()">Beküldés</button>
-        <ul id="output"></ul>
+        </form>
+        <form>
+            <div id="form-title">
+            </div>
+            <div id="surname-field">
+            </div>
+            <div id="city-field">
+            </div>
+            <div id="zip-field">
+            </div>
+            <div id="street-field">
+            </div>
+            <div id="house-number-field">
+            </div>
+        </form>
     </div>
 
     <script src="script.js"></script>
