@@ -9,9 +9,8 @@
 <body>
     <div class="container">
         <h1>Adatok Bekérése</h1>
-        <form id="dataForm">
-            <label for="name">Név:</label>
-            <input type="text" id="name" name="name" >
+            <label for="surname">Név:</label>
+            <input type="text" id="surname" name="surname" >
 
             <label for="city">Település:</label>
             <input type="text" id="city" name="city" >
@@ -25,9 +24,8 @@
             <label for="house-number">Házszám:</label>
             <input type="text" id="house-number" name="house-number">
 
-            <button type="submit">Beküldés</button>
-        </form>
-        <div id="output"></div>
+            <button onclick="submitData()">Beküldés</button>
+        <ul id="output"></ul>
     </div>
 
     <script src="script.js"></script>
